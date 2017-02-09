@@ -7,7 +7,7 @@ var db = mongojs('catalogapi', ['products']);
 app.use(bodyParser.json());
 
 app.get('/', function(req, res){
-	res.send('It Works!');
+	res.send('It Works Plus Something else!');
 });
 
 app.get('/products', function(req, res){
